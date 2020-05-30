@@ -31,6 +31,7 @@ a{text-decoration: none;}
         font-size: .8rem;
     &:hover{background-color: rgba(255, 105, 180, 0.397);
     color: purple;
+    box-shadow: purple 1px 1px 2px , purple -1px -1px 2px;
 }
     }
      }
@@ -38,6 +39,9 @@ a{text-decoration: none;}
     }
     
 }
+.dropdown-item {
+&:hover{background-color: rgba(255, 105, 180, 0.397) !important;
+color: purple;box-shadow: purple 1px 1px 2px , purple -1px -1px 2px;}}
 #header{
      .jumbotron{
          .title1{margin: 20px auto;color:rgb(70, 2, 70);font-weight: bold;
@@ -67,6 +71,7 @@ a{text-decoration: none;}
         a{text-decoration: none;}
         &:hover{background-color: rgba(255, 105, 180, 0.397);
             color: purple;
+            box-shadow: purple 1px 1px 2px , purple -1px -1px 2px;
         }
     }
         h5{text-align: right;color: purple;}  
@@ -126,7 +131,7 @@ a{text-decoration: none;}
       width: 50px;
       height: 50px;
       position: fixed;
-      bottom: 118px;
+      bottom: 108px;
       right: 20px;
       font-size: 2rem;
       text-align: center;

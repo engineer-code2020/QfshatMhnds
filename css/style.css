@@ -52,6 +52,15 @@ a {
 #nav .navbar #new_art .dropdown-item:hover {
   background-color: rgba(255, 105, 180, 0.397);
   color: purple;
+  -webkit-box-shadow: purple 1px 1px 2px , purple -1px -1px 2px;
+          box-shadow: purple 1px 1px 2px , purple -1px -1px 2px;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(255, 105, 180, 0.397) !important;
+  color: purple;
+  -webkit-box-shadow: purple 1px 1px 2px , purple -1px -1px 2px;
+          box-shadow: purple 1px 1px 2px , purple -1px -1px 2px;
 }
 
 #header .jumbotron {
@@ -115,6 +124,8 @@ a {
 #side_bar .sid_ul .sid_li:hover {
   background-color: rgba(255, 105, 180, 0.397);
   color: purple;
+  -webkit-box-shadow: purple 1px 1px 2px , purple -1px -1px 2px;
+          box-shadow: purple 1px 1px 2px , purple -1px -1px 2px;
 }
 
 #side_bar .sid_ul h5 {
@@ -255,7 +266,7 @@ a {
   width: 50px;
   height: 50px;
   position: fixed;
-  bottom: 118px;
+  bottom: 108px;
   right: 20px;
   font-size: 2rem;
   text-align: center;

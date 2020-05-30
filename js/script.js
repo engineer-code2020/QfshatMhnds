@@ -212,7 +212,13 @@ $("#to_up").click(function(){
 $("#to_side a").on("click",function(){
   let target=$(this).attr("href")
   $("body , html").animate({
-      scrollTop:$(target).offset().top -50
+      scrollTop:$(target).offset().top -60
+  },800)
+})
+$("#to_main a").on("click",function(){
+  let target=$(this).attr("href")
+  $("body , html").animate({
+      scrollTop:$(target).offset().top -60
   },800)
 })
 
